@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="142" height="37" viewBox="0 0 142 37">
+  <defs>
+    <linearGradient id="linear-gradient" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#55bbfb"/>
+      <stop offset="1" stop-color="#325ed9"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_2" data-name="Group 2" transform="translate(-1341 152)">
+    <g id="Group_1" data-name="Group 1">
+      <g id="Group_1-2" data-name="Group 1" transform="translate(839 171)">
+        <rect id="Rectangle_1" data-name="Rectangle 1" width="32" height="32" transform="translate(502 -323)" fill="url(#linear-gradient)"/>
+        <text id="c" transform="translate(511 -300)" fill="#fff" font-size="30" font-family="Gilroy-Bold, Gilroy" font-weight="700"><tspan x="0" y="0">c</tspan></text>
+        <text id="lientFiling" transform="translate(536 -299)" fill="#fff" font-size="24" font-family="Gilroy-Bold, Gilroy" font-weight="700"><tspan x="0" y="0">lientFiling</tspan></text>
+        <text id="india" transform="translate(609 -288)" fill="#fff" font-size="10" font-family="Gilroy-Medium, Gilroy" font-weight="500"><tspan x="0" y="0">india</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,829 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,500&family=DM+Serif+Display&display=swap');
+
+* {
+  box-sizing: inherit;
+
+  &:before,
+  &:after {
+    box-sizing: inherit;
+  }
+}
+
+a {
+  color: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+body {
+  background-color: ghostwhite;
+  -ms-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+}
+
+.ant-layout-header {
+  background-color: ghostwhite;
+  padding: 1rem 0;
+  margin: 0;
+
+  .ant-btn-primary {
+    background-color: ghostwhite;
+    color: #333;
+    border: none;
+    box-shadow: none;
+    font-size: larger;
+  }
+}
+
+.navbar,
+.app-drawer,
+.ant-menu-item {
+  font-weight: 600;
+}
+
+.navbar .ant-menu-horizontal {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+div.ant-typography,
+.ant-typography p,
+.ant-card-meta-description {
+  font-size: 16px;
+}
+
+.logo a:hover {
+  color: #1890ff;
+}
+
+.ant-layout-content {
+  min-height: 100%;
+}
+
+.logo a {
+  display: block;
+  color: #333;
+  display: flex;
+  font-weight: 600;
+  align-items: center;
+  font-size: 18px;
+  white-space: nowrap;
+  justify-content: center;
+}
+
+.action {
+  font-size: smaller;
+}
+
+div.ant-menu-submenu-title {
+  color: #333 !important;
+  font-size: 14px;
+}
+
+.ant-layout-header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar {
+  .ant-menu {
+    background: none;
+    color: #fff;
+  }
+
+  .ant-menu-horizontal {
+    > .ant-menu-submenu > .ant-menu-submenu-title {
+      background: none;
+      color: #fff;
+    }
+
+    border-bottom: none;
+  }
+
+  .ant-menu .ant-menu-item-selected {
+    color: #111;
+  }
+}
+
+.collapse-menu {
+  display: none;
+}
+
+.ant-menu-inline {
+  margin-top: 32px;
+}
+
+.ant-drawer-close {
+  right: 20px;
+}
+
+.ant-layout {
+  background: none;
+}
+
+.menu-btn {
+  margin: 16px 0;
+  float: right;
+}
+
+.content {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.banner-bg img {
+  mix-blend-mode: multiply;
+}
+
+.banner-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.service-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  padding: 24px 0;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.ant-row {
+  justify-content: space-between;
+}
+
+.banner-container .ant-btn {
+  margin-top: 2rem;
+}
+
+.ant-col {
+  width: 100%;
+  margin: 12px auto;
+}
+
+img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.statistic {
+  width: 100%;
+  padding: 24px 0;
+  background-color: #001529;
+
+  .ant-typography {
+    color: ghostwhite;
+  }
+
+  span {
+    color: ghostwhite;
+    font-size: 64px;
+    font-weight: 700;
+  }
+
+  .ant-card {
+    border: none;
+    background-color: transparent;
+
+    img {
+      width: 50%;
+    }
+  }
+
+  .text-light {
+    color: #111;
+    margin: 0;
+    font-weight: 400;
+  }
+}
+
+.popular-entities {
+  text-align: left;
+  margin-top: 24px;
+
+  .ant-btn {
+    margin-top: 24px;
+  }
+}
+
+.quotes {
+  padding: 16px 0;
+
+  .ant-typography {
+    text-align: left;
+  }
+
+  .quotes-para {
+    margin: 24px 0;
+    font-size: initial;
+  }
+
+  .ant-typography strong {
+    font-weight: 500;
+  }
+
+  .director-img {
+    width: 100%;
+  }
+}
+
+.support {
+  .ant-card {
+    border: none;
+    background: none;
+  }
+
+  img {
+    width: 35%;
+  }
+
+  .support-team {
+    color: #eb2f96;
+  }
+
+  .support-time {
+    color: #1890ff;
+  }
+
+  .support-payment {
+    color: #52c41a;
+  }
+
+  .ant-typography {
+    color: ghostwhite;
+  }
+}
+
+.faq .ant-collapse > .ant-collapse-item > .ant-collapse-header {
+  text-align: left;
+  background-color: ghostwhite;
+  font-size: 16px;
+}
+
+.private-faq .ant-collapse > .ant-collapse-item > .ant-collapse-header {
+  text-align: left;
+  background-color: ghostwhite;
+}
+
+.ant-collapse-content > .ant-collapse-content-box {
+  font-size: 16px;
+}
+
+.ant-collapse-borderless
+  > .ant-collapse-item
+  > .ant-collapse-content
+  > .ant-collapse-content-box {
+  background-color: ghostwhite;
+}
+
+.faq {
+  .ant-typography {
+    text-align: left;
+    margin: 24px 0;
+  }
+
+  .faq .ant-typography p {
+    text-align: left;
+  }
+}
+
+.footer {
+  background: #001529;
+
+  a {
+    color: #fff;
+  }
+
+  .ant-layout-footer {
+    background: none;
+  }
+
+  .footer-top {
+    text-align: left;
+  }
+}
+
+.footer-top .ant-typography {
+  color: #fff;
+}
+
+.footer {
+  .footer-bottom {
+    text-align: center;
+    background: rgba(3, 24, 46, 0.95);
+
+    .ant-typography {
+      color: #fff;
+      margin-bottom: 0;
+    }
+  }
+
+  .ant-layout-footer {
+    padding: 2rem 0;
+    margin-top: 24px;
+  }
+
+  .footer-content {
+    height: 100%;
+  }
+}
+
+.breadcrumb .ant-breadcrumb {
+  width: 100%;
+  padding: 24px 0;
+  text-align: left;
+  font-size: 18px;
+}
+
+.gst-main .gst-tab-link {
+  text-align: left;
+}
+
+.ant-anchor,
+.ant-list-item {
+  font-size: 16px;
+}
+
+.gst-main .gst-tab-link .ant-anchor-link-title {
+  padding: 5px 0;
+}
+
+.gst-reg {
+  margin-bottom: 32px;
+}
+
+.pricing {
+  .ant-typography {
+    margin-top: 32px;
+  }
+
+  .ant-card .card-head {
+    margin-bottom: 24px;
+    background: #1890ff;
+    padding: 16px;
+  }
+}
+
+.ant-statistic-title {
+  font-size: 18px;
+}
+
+.pricing .ant-statistic-title,
+.ant-statistic-content-value {
+  color: #fff;
+}
+
+.pricing .card-body .ant-btn-primary {
+  margin-top: 24px;
+}
+
+.ant-btn-primary {
+  font-weight: 600;
+  border: none;
+  border-radius: 0;
+}
+
+.ant-btn {
+  padding: 0.5rem 1rem;
+  height: auto;
+}
+
+.gst-cases {
+  width: 100%;
+  text-align: left;
+  margin: 24px 0;
+}
+
+.service {
+  width: 100%;
+  text-align: left;
+}
+
+.gst-faq {
+  margin-bottom: 24px;
+}
+
+.tick-icon {
+  color: #52c41a;
+  padding-right: 24px;
+}
+
+.gst-docs .ant-timeline {
+  margin: 32px 0;
+}
+
+.gstr-type {
+  .ant-pagination {
+    display: none;
+  }
+
+  .ant-card {
+    margin: 24px 0;
+  }
+
+  div.ant-typography {
+    margin-bottom: 24px;
+  }
+}
+
+.ant-typography p {
+  margin-bottom: 24px;
+}
+
+.emoji {
+  margin-right: 12px;
+}
+
+.check {
+  color: #52c41a;
+}
+
+.uncheck {
+  color: #ff4d4f;
+}
+
+.softcopy {
+  color: #1890ff;
+}
+
+.itrOne-eligibility {
+  margin-top: 32px;
+}
+
+.service {
+  margin: 0 0 24px 0;
+}
+
+.rupees {
+  width: 14px;
+}
+
+.rating {
+  .ant-rate-star:not(:last-child) {
+    margin: 5px;
+  }
+
+  h2.ant-typography {
+    margin: 0;
+  }
+}
+
+.ant-typography h2 {
+  margin: 0;
+}
+
+.rating .ant-rate-star {
+  padding: 0;
+  margin: 0;
+}
+
+.owl-nav {
+  text-align: right;
+  margin: 0 12px;
+}
+
+.owl-prev span,
+.owl-next span {
+  padding: 0 10px;
+}
+
+button {
+  &:focus,
+  &:active {
+    outline: none;
+    border: none;
+  }
+}
+
+.pf-type {
+  margin-top: 48px;
+}
+
+.pf-employee {
+  .slick-dots {
+    bottom: -10;
+  }
+
+  .ant-card {
+    height: auto;
+  }
+}
+
+.ant-timeline {
+  margin: 32px 0;
+}
+
+/* gst application form */
+
+.steps-content {
+  margin-top: 16px;
+  border: 1px dashed #e9e9e9;
+  border-radius: 2px;
+  background-color: #fafafa;
+  min-height: 200px;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.steps-action {
+  margin-top: 24px;
+}
+
+[data-theme='dark'] .steps-content {
+  margin-top: 16px;
+  border: 1px dashed #303030;
+  background-color: rgba(255, 255, 255, 0.04);
+  color: rgba(255, 255, 255, 0.65);
+  padding-top: 80px;
+}
+
+.application-form {
+  padding: 32px 0;
+  text-align: left;
+
+  h1.ant-typography {
+    margin-bottom: 24px;
+  }
+}
+
+.gst-application
+  .ant-steps-horizontal:not(.ant-steps-label-vertical)
+  .ant-steps-item {
+  padding: 0;
+}
+
+.form-container {
+  padding: 24px;
+  text-align: left;
+}
+
+.steps-content {
+  padding-top: 0;
+}
+
+.ant-form-vertical .ant-form-item-label,
+.ant-col-24.ant-form-item-label,
+.ant-col-xl-24.ant-form-item-label {
+  padding: 0;
+}
+
+.pricing {
+  .ant-card-body {
+    padding: 0 0 16px 0;
+  }
+
+  .ant-list-items {
+    padding: 0 16px;
+  }
+
+  .ant-btn-primary {
+    margin: 14px;
+  }
+}
+
+.user-login {
+  text-align: left;
+}
+
+/* .ant-form-item {
+  margin: 0;
+} */
+
+.remove {
+  float: right;
+  margin: 14px;
+}
+
+.inclusive {
+  color: #fff;
+  font-size: 16px;
+}
+
+.gst-docs .ant-col {
+  margin: 0 auto;
+}
+
+.pf-employee .ant-card-body {
+  min-height: 200px;
+}
+
+.price,
+.box,
+.service-card {
+  transition: all 0.3s ease-out;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.1);
+}
+
+.price:hover,
+.service-card:hover {
+  transform: translateY(-10px);
+}
+
+.ant-typography strong {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.ant-btn-primary {
+  color: #fff;
+}
+
+.banner-container h1 {
+  font-size: 64px;
+  font-family: 'DM Serif Display', serif;
+  letter-spacing: initial;
+}
+
+.ant-anchor-wrapper {
+  background: none;
+}
+
+.refund-policy {
+  margin: 0 auto;
+  padding: 2rem 0;
+
+  .ant-typography strong {
+    font-size: 16px;
+    font-weight: 500;
+  }
+}
+
+.ant-card-meta-title {
+  font-weight: 500;
+}
+
+.ant-statistic-content {
+  font-size: 32px;
+}
+
+input,
+textarea {
+  font-weight: 500;
+}
+
+.ant-form-item-label > label {
+  font-size: 16px;
+}
+
+.navbar,
+.app-drawer,
+.ant-menu-item {
+  font-size: initial;
+}
+
+.diwali {
+  text-align: left;
+
+  .ant-typography {
+    color: #fff;
+
+    h1 {
+      font-size: 52px;
+    }
+
+    strong {
+      font-size: 20px;
+    }
+  }
+}
+
+h1.ant-typography,
+.ant-typography h1 {
+  font-family: 'DM Serif Display', serif;
+}
+
+.ant-menu-item-only-child {
+  font-size: 14px;
+}
+
+@media screen and (max-width: 1220px) {
+  .navbar {
+    display: none;
+  }
+
+  .collapse-menu {
+    display: block;
+  }
+
+  .banner-container {
+    padding: 1rem 0;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  .service-container,
+  .banner-container,
+  .container {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 995px) {
+  .ant-layout-header .container {
+    width: 95%;
+  }
+
+  .collapse-menu {
+    display: block;
+  }
+
+  .ant-layout-header {
+    padding: 0 10px;
+  }
+
+  .banner-img {
+    width: 300px;
+  }
+
+  .trademark-docs img,
+  .tmrenewal-docs img,
+  .hide {
+    display: none;
+  }
+
+  .support img {
+    width: 30%;
+  }
+
+  .banner-container h1 {
+    font-size: 48px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .gst-tab-link {
+    display: none;
+  }
+
+  .owl-nav {
+    text-align: center;
+  }
+
+  .banner-container h1 {
+    font-size: 64px;
+  }
+
+  h1.ant-typography,
+  .ant-typography h1 {
+    font-size: 42px;
+  }
+
+  .service-container {
+    padding: 0;
+  }
+
+  .diwali {
+    padding: 1rem 0;
+
+    .ant-typography h1 {
+      font-size: 48px;
+    }
+  }
+
+  .ant-typography strong {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .banner-container h1 {
+    font-size: 84px;
+  }
+
+  .diwali .ant-typography h1 {
+    font-size: 72px;
+  }
+}
+
+@media (min-width: 1300px) and (max-width: 1600px) {
+  .ant-layout-header .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 1350px) {
+  .action {
+    display: none;
+  }
+}
