@@ -244,7 +244,7 @@ const GstreturnComponent = () => {
                   data={data}
                 />
                 <Row align='middle' gutter={16}>
-                  <Col className='ant-col-lg-12 ant-col-sm-24'>
+                  <Col className='ant-col-lg-24 ant-col-sm-24'>
                     {gstReturnCasesTwo.map((cases) => (
                       <Card key={cases.id} className='box'>
                         <Col className='ant-col-lg-24'>
@@ -253,9 +253,6 @@ const GstreturnComponent = () => {
                         </Col>
                       </Card>
                     ))}
-                  </Col>
-                  <Col className='ant-col-lg-12 ant-col-sm-24'>
-                    <img src={gstrType} alt='' />
                   </Col>
                 </Row>
               </div>

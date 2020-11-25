@@ -5,8 +5,6 @@ import { CaretRightOutlined } from '@ant-design/icons';
 import { pfBasic, pfStandard, pfPremium } from './PricingDetails';
 import pfDocs from '../assets/pf-docs.svg';
 import DocumentComponent from './DocumentComponent';
-import Slider from 'react-slick';
-import { List } from 'antd/lib/form/Form';
 
 const PfComponent = () => {
   const tab1 = [

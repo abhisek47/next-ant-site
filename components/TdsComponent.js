@@ -2,7 +2,6 @@ import { Layout, Row, Col, Typography, List, Collapse, Anchor } from 'antd';
 import PricingComponent from './PricingComponent';
 import gstrCase from '../assets/gstrCases.svg';
 import { CaretRightOutlined, CheckCircleFilled } from '@ant-design/icons';
-import TableComponent from './TableComponent';
 import tdsElegibility from '../assets/tds.svg';
 import { tdsBasic, tdsStandard, tdsPremium } from './PricingDetails';
 
@@ -176,13 +175,6 @@ const TdsComponent = () => {
                 </Row>
               </div>
               {/* tds rates */}
-              {/* <div className='tds-rates service' id='tds-rates'>
-                <TableComponent
-                  title='What are the different types of GST Returns?'
-                  columns={columns}
-                  data={data}
-                />
-              </div> */}
               {/* Pricing info */}
               <div className='pricing service' id='tds-pricing'>
                 <PricingComponent
