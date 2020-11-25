@@ -1,11 +1,11 @@
-import model from '../assets/model_16.jpg';
+import model from '../assets/model_25.jpg';
 import ServiceBannerComponent from '../components/ServiceBanner';
 import BreadcrumbComponent from '../components/BreadcrumbComponent';
-import PrivateComponent from '../components/PrivateComponent';
+import PublicComponent from '../components/PublicComponent';
 import HeaderComponent from '../components/HeaderComponent';
 import Head from 'next/head';
 
-const PrivatePage = () => {
+const PublicPage = () => {
   const services = [
     'Required timing - 5 days',
     'Completely online – no need to visit office',
@@ -14,23 +14,23 @@ const PrivatePage = () => {
   return (
     <>
       <Head>
-        <title>Private Company Registration</title>
+        <title>Public company registration</title>
       </Head>
       <HeaderComponent />
       <ServiceBannerComponent
-        head='Private limited company'
+        head='Public Limited Company'
         btn='Register now'
         img={model}
-        id='/private-company-application-form'
-        tagline='Get your private company registered at Rs 9,440/-'
+        id='/public-company-application-form'
+        tagline='Get your public limited company registered at Rs 28,000/-'
         services={services}
       />
       <div className='container'>
-        <BreadcrumbComponent title='Private limited company' />
-        <PrivateComponent />
+        <BreadcrumbComponent title='Public limited company' />
+        <PublicComponent />
       </div>
     </>
   );
 };
 
-export default PrivatePage;
+export default PublicPage;

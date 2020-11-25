@@ -1,9 +1,16 @@
 import 'antd/dist/antd.css';
+import 'aos/dist/aos.css';
 import '../styles/index.scss';
 import Head from 'next/head';
 import structuredData from '../schema';
+import { useEffect } from 'react';
+import AOS from 'aos';
+import FooterComponent from '../components/FooterComponent';
 
 function MyApp({ Component, pageProps }) {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <>
       <Head>
@@ -109,6 +116,7 @@ function MyApp({ Component, pageProps }) {
         />
       </Head>
       <Component {...pageProps} />
+      <FooterComponent />
     </>
   );
 }

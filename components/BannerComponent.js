@@ -1,9 +1,9 @@
 import { Layout, Typography, Row, Col, Button } from 'antd';
 import Link from 'next/link';
+
 const BannerComponent = ({ head, para, img }) => {
   const { Content } = Layout;
   const { Title, Text } = Typography;
-
   return (
     <>
       <Layout>
@@ -13,26 +13,16 @@ const BannerComponent = ({ head, para, img }) => {
               <Col className='ant-col-sm-24 ant-col-md-12'>
                 <Typography>
                   <div>
-                    <Title
-                      data-sal='slide-up'
-                      data-sal-delay='150'
-                      data-sal-easing='ease-out-back'>
-                      {head}
-                    </Title>
-                    <Text
-                      strong
-                      data-sal='slide-up'
-                      data-sal-delay='200'
-                      data-sal-easing='ease-out-back'>
-                      {para}
-                    </Text>
+                    <Title data-aos='fade-up'>{head}</Title>
+                    <div data-aos='fade-up' data-aos-delay='100'>
+                      <Text strong>{para}</Text>
+                    </div>
                   </div>
                   <Link href='#popular'>
                     <div
                       className='mt-4'
-                      data-sal='slide-up'
-                      data-sal-delay='200'
-                      data-sal-easing='ease-out-back'>
+                      data-aos='fade-up'
+                      data-aos-delay='200'>
                       <Button type='primary' size='large'>
                         Explore now
                       </Button>
@@ -41,7 +31,9 @@ const BannerComponent = ({ head, para, img }) => {
                 </Typography>
               </Col>
               <Col className='ant-col-sm-24 ant-col-md-12'>
-                <img src={img} alt='banner' />
+                <div data-aos='zoom-in' data-aos-delay='50'>
+                  <img src={img} alt='banner' />
+                </div>
               </Col>
             </Row>
           </div>
