@@ -22,7 +22,7 @@ const PublicPage = () => {
         btn='Register now'
         img={model}
         id='/public-company-application-form'
-        tagline='Get your public limited company registered at Rs 28,000/-'
+        tagline='Get your public limited company registered at Rs 35,000/-'
         services={services}
       />
       <div className='container'>

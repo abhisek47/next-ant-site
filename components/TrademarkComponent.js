@@ -240,12 +240,9 @@ const TrademarkComponent = () => {
                   dataOne={trademarkBasic}
                   dataTwo={trademarkStandard}
                   dataThree={trademarkPremium}
-                  basic='5192'
-                  standard='5192'
-                  premium='9600'
-                  basicDiscount='6,490'
-                  standardDiscount='6,490'
-                  premiumDiscount='12,000'
+                  basic='6,490'
+                  standard='6,490'
+                  premium='12,000'
                 />
               </div>
               {/* faq */}

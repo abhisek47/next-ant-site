@@ -7,19 +7,21 @@ const SpeacialOffers = ({
   dataOne,
   dataTwo,
   dataThree,
-  basic,
-  standard,
-  premium,
+  dataFour,
+  company,
+  trademark,
+  gst,
+  incomeTax,
 }) => {
   const { Title } = Typography;
   return (
     <div className='speacial-offer'>
       <div className='container' style={{ textAlign: 'left' }}>
         <Title data-aos='fade-up' data-aos-duration='600'>
-          Speacial offers
+          Our best plans
         </Title>
         <Row gutter={16}>
-          <Col className='ant-col-sm-24 ant-col-lg-8'>
+          <Col className='ant-col-sm-24 ant-col-md-12 ant-col-lg-6'>
             <Card className='price'>
               <div
                 className='card-head'
@@ -30,20 +32,12 @@ const SpeacialOffers = ({
                 }}>
                 <Statistic
                   title='Private company registration'
-                  value={basic}
+                  value={company}
                   prefix={
                     <img src={rupeeIndian} className='rupees' alt='basic' />
                   }
-                  suffix={
-                    <del>
-                      <img src={rupeeIndian} className='rupees' alt='premium' />
-                      11,800
-                    </del>
-                  }
                 />
-                <span className='inclusive'>
-                  (20% discount on professional charges)
-                </span>
+                <span className='inclusive'>All inclusive</span>
               </div>
               <div className='card-body'>
                 <List
@@ -58,7 +52,7 @@ const SpeacialOffers = ({
               </div>
             </Card>
           </Col>
-          <Col className='ant-col-sm-24 ant-col-lg-8'>
+          <Col className='ant-col-sm-24 ant-col-md-12 ant-col-lg-6'>
             <Card className='price'>
               <div
                 className='card-head'
@@ -68,25 +62,48 @@ const SpeacialOffers = ({
                     'linear-gradient(315deg, #f8ceec 0%, #a88beb 74%)',
                 }}>
                 <Statistic
-                  title='GST registration'
-                  value={standard}
+                  title='Trademark registration'
+                  value={trademark}
                   prefix={
                     <img src={rupeeIndian} className='rupees' alt='standard' />
                   }
-                  suffix={
-                    <del>
-                      <img src={rupeeIndian} className='rupees' alt='premium' />
-                      1,800
-                    </del>
-                  }
                 />
-                <span className='inclusive'>
-                  (20% discount on professional charges)
-                </span>
+                <span className='inclusive'>All inclusive</span>
               </div>
               <div className='card-body'>
                 <List
                   dataSource={dataTwo}
+                  renderItem={(item) => <List.Item>{item}</List.Item>}
+                />
+                <Link href='/trademark'>
+                  <Button icon={<TagsFilled />} type='primary' size='large'>
+                    Buy now
+                  </Button>
+                </Link>
+              </div>
+            </Card>
+          </Col>
+          <Col className='ant-col-sm-24 ant-col-md-12 ant-col-lg-6'>
+            <Card className='price'>
+              <div
+                className='card-head'
+                style={{
+                  backgroundColor: '#abe9cd',
+                  backgroundImage:
+                    'linear-gradient(315deg, #abe9cd 0%, #3eadcf 74%)',
+                }}>
+                <Statistic
+                  title='GST registration'
+                  value={gst}
+                  prefix={
+                    <img src={rupeeIndian} className='rupees' alt='premium' />
+                  }
+                />
+                <span className='inclusive'>All inclusive</span>
+              </div>
+              <div className='card-body'>
+                <List
+                  dataSource={dataThree}
                   renderItem={(item) => <List.Item>{item}</List.Item>}
                 />
                 <Link href='/gst'>
@@ -97,35 +114,27 @@ const SpeacialOffers = ({
               </div>
             </Card>
           </Col>
-          <Col className='ant-col-sm-24 ant-col-lg-8'>
+          <Col className='ant-col-sm-24 ant-col-md-12 ant-col-lg-6'>
             <Card className='price'>
               <div
                 className='card-head'
                 style={{
                   backgroundColor: '#abe9cd',
                   backgroundImage:
-                    'linear-gradient(315deg, #abe9cd 0%, #3eadcf 74%)',
+                    'linear-gradient( 100.5deg,  rgba(148,146,236,1) 17.7%, rgba(245,194,194,1) 76.1% )',
                 }}>
                 <Statistic
                   title='ITR-1 return filing'
-                  value={premium}
+                  value={incomeTax}
                   prefix={
                     <img src={rupeeIndian} className='rupees' alt='premium' />
                   }
-                  suffix={
-                    <del>
-                      <img src={rupeeIndian} className='rupees' alt='premium' />
-                      2,900
-                    </del>
-                  }
                 />
-                <span className='inclusive'>
-                  (20% discount on professional charges)
-                </span>
+                <span className='inclusive'>All inclusive</span>
               </div>
               <div className='card-body'>
                 <List
-                  dataSource={dataThree}
+                  dataSource={dataFour}
                   renderItem={(item) => <List.Item>{item}</List.Item>}
                 />
                 <Link href='/income-tax-return-1'>

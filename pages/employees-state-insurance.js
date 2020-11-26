@@ -23,7 +23,7 @@ const EsiPage = () => {
         btn='Register now'
         img={model}
         id='/esi-application-form'
-        tagline='Get your ESI registration at Rs 6,400/-'
+        tagline='Get your ESI registration at Rs 8,000/-'
         services={services}
       />
       <div className='container'>

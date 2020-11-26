@@ -23,7 +23,7 @@ const GstreturnPage = () => {
         btn='Register now'
         img={model}
         id='/gst-return-application-form'
-        tagline='Get your GST return filing at Rs 2,320/-'
+        tagline='Get your GST return filing at Rs 2,899/-'
         services={services}
       />
       <div className='container'>

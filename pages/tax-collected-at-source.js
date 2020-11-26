@@ -22,7 +22,7 @@ const TcsPage = () => {
         btn='Register now'
         img={model}
         id='https://rzp.io/l/tcs-filing'
-        tagline='Get your TCS filing at Rs 1,199/-'
+        tagline='Get your TCS filing at Rs 1,499/-'
         services={services}
       />
       <div className='container'>

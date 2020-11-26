@@ -24,7 +24,7 @@ const PrivateCompliancesPage = () => {
         btn='Register now'
         img={model}
         id='https://rzp.io/l/partnership-firm-compliances'
-        tagline='Get your annual compliances registered under partnership firm at Rs 18,880/-'
+        tagline='Get your annual compliances registered under partnership firm at Rs 23,600/-'
         services={services}
       />
       <div className='container'>

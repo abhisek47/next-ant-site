@@ -22,7 +22,7 @@ const PrivateCompliancesPage = () => {
         btn='Register now'
         img={model}
         id='https://rzp.io/l/private-company-compliances'
-        tagline='Get your annual compliances registered under private company at Rs 24,000/-'
+        tagline='Get your annual compliances registered under private company at Rs 30,000/-'
         services={services}
       />
       <div className='container'>

@@ -160,12 +160,9 @@ const ItrOneComponent = () => {
                   dataOne={itrOneBasic}
                   dataTwo={itrOneStandard}
                   dataThree={itrOnePremium}
-                  basic='2320'
-                  standard='3120'
-                  premium='3920'
-                  basicDiscount='2,900'
-                  standardDiscount='3,900'
-                  premiumDiscount='4,900'
+                  basic='2,900'
+                  standard='3,900'
+                  premium='4,900'
                 />
               </div>
               {/* faq */}

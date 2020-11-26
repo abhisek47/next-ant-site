@@ -22,7 +22,7 @@ const ItrThreePage = () => {
         btn='Register now'
         img={model}
         id='/trademark-renewal-application-form'
-        tagline='Get your trademark renewed at Rs 2,832/-'
+        tagline='Get your trademark renewed at Rs 3,540/-'
         services={services}
       />
       <div className='container'>

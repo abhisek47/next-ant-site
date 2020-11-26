@@ -90,12 +90,9 @@ const PrivateCompliancesComponent = () => {
                   dataOne={privateCompliancesBasic}
                   dataTwo={privateCompliancesStandard}
                   dataThree={privateCompliancesPremium}
-                  basic='24000'
-                  standard='32000'
-                  premium='40000'
-                  basicDiscount='30,000'
-                  standardDiscount='40,000'
-                  premiumDiscount='50,000'
+                  basic='30,000'
+                  standard='40,000'
+                  premium='50,000'
                 />
               </div>
               {/* faq */}

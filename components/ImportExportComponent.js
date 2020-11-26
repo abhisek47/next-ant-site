@@ -123,12 +123,9 @@ const ImportExportComponent = () => {
                   dataOne={iecBasic}
                   dataTwo={iecStandard}
                   dataThree={iecPremium}
-                  basic='2800'
-                  standard='2800'
-                  premium='2800'
-                  basicDiscount='3,500'
-                  standardDiscount='3,500'
-                  premiumDiscount='3,500'
+                  basic='3,500'
+                  standard='3,500'
+                  premium='3,500'
                 />
               </div>
               {/* faq */}

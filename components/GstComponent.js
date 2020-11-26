@@ -326,12 +326,9 @@ const GstComponent = () => {
                   dataOne={gstBasic}
                   dataTwo={gstStandard}
                   dataThree={gstPremium}
-                  basic='944'
-                  standard='944'
-                  premium='944'
-                  basicDiscount='1,180'
-                  standardDiscount='1,180'
-                  premiumDiscount='1,180'
+                  basic='1,180'
+                  standard='1,180'
+                  premium='1,180'
                 />
               </div>
               {/* faq */}

@@ -23,7 +23,7 @@ const ImportExportPage = () => {
         btn='Register now'
         img={model}
         id='/iec-application-form'
-        tagline='Get your import export code registered at Rs 2,800/-'
+        tagline='Get your import export code registered at Rs 3,500/-'
         services={services}
       />
       <div className='container'>

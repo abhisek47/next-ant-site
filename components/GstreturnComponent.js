@@ -262,12 +262,9 @@ const GstreturnComponent = () => {
                   dataOne={gstReturnBasic}
                   dataTwo={gstReturnStandard}
                   dataThree={gstReturnPremium}
-                  basic='2320'
-                  standard='3920'
-                  premium='5520'
-                  basicDiscount='2,899'
-                  standardDiscount='4,899'
-                  premiumDiscount='6,899'
+                  basic='2,899'
+                  standard='4,899'
+                  premium='6,899'
                 />
               </div>
               {/* faq */}

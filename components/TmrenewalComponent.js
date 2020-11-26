@@ -180,12 +180,9 @@ const TmrenewalComponent = () => {
                   dataOne={tmrenewBasic}
                   dataTwo={tmrenewStandard}
                   dataThree={tmrenewPremium}
-                  basic='2832'
-                  standard='2832'
-                  premium='2832'
-                  basicDiscount='3,540'
-                  standardDiscount='3,540'
-                  premiumDiscount='3,540'
+                  basic='3,540'
+                  standard='3,540'
+                  premium='3,540'
                 />
               </div>
               {/* faq */}

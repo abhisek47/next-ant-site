@@ -23,7 +23,7 @@ const ItrSixPage = () => {
         btn='Register now'
         img={model}
         id='/itr-application-form'
-        tagline='Get your ITR-6 filing at Rs 4,720/-'
+        tagline='Get your ITR-6 filing at Rs 5,900/-'
         services={services}
       />
       <div className='container'>

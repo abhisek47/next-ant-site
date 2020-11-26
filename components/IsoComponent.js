@@ -289,12 +289,9 @@ const IsoComponent = () => {
                   dataOne={isoBasic}
                   dataTwo={isoStandard}
                   dataThree={isoPremium}
-                  basic='4800'
-                  standard='4800'
-                  premium='4800'
-                  basicDiscount='6,000'
-                  standardDiscount='6,000'
-                  premiumDiscount='6,000'
+                  basic='6,000'
+                  standard='6,000'
+                  premium='6,000'
                 />
               </div>
               {/* faq */}

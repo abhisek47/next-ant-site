@@ -1,13 +1,21 @@
-import React, { useContext, useState } from 'react';
+import React, { useState } from 'react';
 import { Form, Input, Button, Card, Typography } from 'antd';
 import { MailOutlined, PhoneOutlined } from '@ant-design/icons';
 import Router from 'next/router';
+import { loadFirebase } from '../lib/db';
 
 const FormComponent = ({ tagline, id }) => {
   const [email, setEmail] = useState([]);
   const [phone, setPhone] = useState([]);
   const onFinish = (values) => {
     console.log('Received values of form: ', values);
+    let firebase = loadFirebase();
+    let db = firebase.firestore();
+    db.collection('login-data').add({
+      email: email,
+      phone: phone,
+      timestamp: firebase.firestore.FieldValue.serverTimestamp(),
+    });
     Router.push(`${id}`);
   };
   const { Title } = Typography;

@@ -33,16 +33,8 @@ const PricingComponent = ({
                 prefix={
                   <img src={rupeeIndian} className='rupees' alt='basic' />
                 }
-                suffix={
-                  <del>
-                    <img src={rupeeIndian} className='rupees' alt='premium' />
-                    {basicDiscount}
-                  </del>
-                }
               />
-              <span className='inclusive'>
-                (20% discount on professional charges)
-              </span>
+              <span className='inclusive'>All inclusive</span>
             </div>
             <div className='card-body'>
               <List
@@ -74,16 +66,8 @@ const PricingComponent = ({
                 prefix={
                   <img src={rupeeIndian} className='rupees' alt='standard' />
                 }
-                suffix={
-                  <del>
-                    <img src={rupeeIndian} className='rupees' alt='premium' />
-                    {standardDiscount}
-                  </del>
-                }
               />
-              <span className='inclusive'>
-                (20% discount on professional charges)
-              </span>
+              <span className='inclusive'>All inclusive</span>
             </div>
             <div className='card-body'>
               <List
@@ -115,16 +99,8 @@ const PricingComponent = ({
                 prefix={
                   <img src={rupeeIndian} className='rupees' alt='premium' />
                 }
-                suffix={
-                  <del>
-                    <img src={rupeeIndian} className='rupees' alt='premium' />
-                    {premiumDiscount}
-                  </del>
-                }
               />
-              <span className='inclusive'>
-                (20% discount on professional charges)
-              </span>
+              <span className='inclusive'>All inclusive</span>
             </div>
             <div className='card-body'>
               <List

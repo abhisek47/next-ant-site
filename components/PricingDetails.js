@@ -619,6 +619,9 @@ export const bookKeepingPremium = [
 export const companySpeacial = [
   'Private company registration with class 2 DSC, director identification numbers, RUN name approval, upto 15 lakh authorized capital, incorporation fee, incorporation certificate, GST, ESI, PF registration, company seal and incorporation kit.',
 ];
+export const trademarkSpeacial = [
+  'Trademark filing under one class for proprietorship and small enterprises. Inclusive of government fee and taxes. (including govt fees of 4500)',
+];
 export const gstSpeacial = [
   'CA assisted GST filing with secure GST identification number completely online – no need to visit office.',
 ];

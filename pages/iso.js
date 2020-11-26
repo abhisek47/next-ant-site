@@ -23,7 +23,7 @@ const IsoPage = () => {
         btn='Register now'
         id='/iso-application-form'
         img={model}
-        tagline='Get your ISO registered at Rs 4,800/-'
+        tagline='Get your ISO registered at Rs 6,000/-'
         services={services}
       />
       <div className='container'>

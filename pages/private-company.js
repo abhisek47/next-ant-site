@@ -22,7 +22,7 @@ const PrivatePage = () => {
         btn='Register now'
         img={model}
         id='/private-company-application-form'
-        tagline='Get your private company registered at Rs 9,440/-'
+        tagline='Get your private company registered at Rs 11,800/-'
         services={services}
       />
       <div className='container'>

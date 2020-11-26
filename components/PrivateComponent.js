@@ -127,12 +127,9 @@ const PrivateComponent = () => {
                   dataOne={privateBasic}
                   dataTwo={privateStandard}
                   dataThree={privatePremium}
-                  basic='9440'
-                  standard='14160'
-                  premium='24000'
-                  basicDiscount='11,800'
-                  standardDiscount='17,700'
-                  premiumDiscount='30,000'
+                  basic='11,800'
+                  standard='17,700'
+                  premium='30,000'
                 />
               </div>
               {/* faq */}

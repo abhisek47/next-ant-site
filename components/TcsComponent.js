@@ -69,12 +69,9 @@ const TcsComponent = () => {
                   dataOne={tcsBasic}
                   dataTwo={tcsStandard}
                   dataThree={tcsPremium}
-                  basic='1199'
-                  standard='1999'
-                  premium='3919'
-                  basicDiscount='1,499'
-                  standardDiscount='2,499'
-                  premiumDiscount='4,899'
+                  basic='1,499'
+                  standard='2,499'
+                  premium='4,899'
                 />
               </div>
               {/* faq */}

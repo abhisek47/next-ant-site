@@ -84,12 +84,9 @@ const OtherCompliancesComponent = () => {
                   dataOne={otherCompliancesBasic}
                   dataTwo={otherCompliancesStandard}
                   dataThree={otherCompliancesPremium}
-                  basic='18880'
-                  standard='20080'
-                  premium='29680'
-                  basicDiscount='23,600'
-                  standardDiscount='25,100'
-                  premiumDiscount='37,100'
+                  basic='23,600'
+                  standard='25,100'
+                  premium='37,100'
                 />
               </div>
               {/* faq */}

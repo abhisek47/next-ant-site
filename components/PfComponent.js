@@ -234,12 +234,9 @@ const PfComponent = () => {
                   dataOne={pfBasic}
                   dataTwo={pfStandard}
                   dataThree={pfPremium}
-                  basic='6400'
-                  standard='12000'
-                  premium='20800'
-                  basicDiscount='8,000'
-                  standardDiscount='15,000'
-                  premiumDiscount='26,000'
+                  basic='8,000'
+                  standard='15,000'
+                  premium='26,000'
                 />
               </div>
               {/* faq */}

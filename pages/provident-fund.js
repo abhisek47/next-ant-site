@@ -24,7 +24,7 @@ const PfPage = () => {
         btn='Register now'
         img={model}
         id='/pf-application-form'
-        tagline='Get your provident fund registration at Rs 6,400/-'
+        tagline='Get your provident fund registration at Rs 8,000/-'
         services={services}
       />
       <div className='container'>

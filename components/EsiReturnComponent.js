@@ -223,12 +223,9 @@ const esiReturnComponent = () => {
                   dataOne={esiReturnBasic}
                   dataTwo={esiReturnStandard}
                   dataThree={esiReturnPremium}
-                  basic='639'
-                  standard='1199'
-                  premium='6799'
-                  basicDiscount='799'
-                  standardDiscount='1,499'
-                  premiumDiscount='8,499'
+                  basic='799'
+                  standard='1,499'
+                  premium='8,499'
                 />
               </div>
               {/* faq */}

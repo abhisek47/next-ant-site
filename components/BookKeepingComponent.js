@@ -118,12 +118,9 @@ const BookKeepingComponent = () => {
                   dataOne={bookKeepingBasic}
                   dataTwo={bookKeepingStandard}
                   dataThree={bookKeepingPremium}
-                  basic='2800'
-                  standard='4000'
-                  premium='4400'
-                  basicDiscount='3,500'
-                  standardDiscount='5,000'
-                  premiumDiscount='5,500'
+                  basic='3,500'
+                  standard='5,000'
+                  premium='5,500'
                 />
               </div>
               {/* faq */}

@@ -23,7 +23,7 @@ const ItrTwoPage = () => {
         btn='Register now'
         img={model}
         id='/itr-application-form'
-        tagline='Get your ITR-2 filing at Rs 2,320/-'
+        tagline='Get your ITR-2 filing at Rs 2,900/-'
         services={services}
       />
       <div className='container'>

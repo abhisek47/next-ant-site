@@ -22,7 +22,7 @@ const BookKeeping = () => {
         btn='Register now'
         img={model}
         id='https://rzp.io/l/book-keeping'
-        tagline='We provide book keeping services just Rs 2,800/-'
+        tagline='We provide book keeping services just Rs 3,500/-'
         services={services}
       />
       <div className='container'>

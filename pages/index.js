@@ -7,10 +7,10 @@ import QuotesComponent from '../components/QuotesComponent';
 import SupportComponent from '../components/SupportComponent';
 import HeaderComponent from '../components/HeaderComponent';
 import FaqComponent from '../components/FaqComponent';
-import DiwaliComponent from '../components/DiwaliComponent';
 import SpeacialOffers from '../components/SpeacialOffers';
 import {
   companySpeacial,
+  trademarkSpeacial,
   gstSpeacial,
   incometaxSpeacial,
 } from '../components/PricingDetails';
@@ -30,19 +30,19 @@ export default function Home() {
       />
       <StatsComponent />
       <PopularComponent />
-      <DiwaliComponent />
-      {/* Pricing info */}
+      <QuotesComponent />
       <div className='pricing service' id='gst-pricing'>
         <SpeacialOffers
           dataOne={companySpeacial}
-          dataTwo={gstSpeacial}
-          dataThree={incometaxSpeacial}
-          basic='9440'
-          standard='944'
-          premium='2320'
+          dataTwo={trademarkSpeacial}
+          dataThree={gstSpeacial}
+          dataFour={incometaxSpeacial}
+          company='11800'
+          trademark='6490'
+          gst='1180'
+          incomeTax='2900'
         />
       </div>
-      <QuotesComponent />
       <SupportComponent />
       <FaqComponent />
     </>

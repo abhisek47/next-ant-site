@@ -132,12 +132,9 @@ const itrSixComponent = () => {
                   dataOne={itrSixBasic}
                   dataTwo={itrSixStandard}
                   dataThree={itrSixPremium}
-                  basic='4720'
-                  standard='4720'
-                  premium='4720'
-                  basicDiscount='5,900'
-                  standardDiscount='5,900'
-                  premiumDiscount='5,900'
+                  basic='5,900'
+                  standard='5,900'
+                  premium='5,900'
                 />
               </div>
               {/* faq */}
